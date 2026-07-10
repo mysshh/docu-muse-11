@@ -87,10 +87,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "DocuMind — Chat with your documents" },
       {
         property: "og:description",
-        content: "Upload documents and get grounded, cited answers via RAG.",
+        content: "Upload PDF, DOCX, and TXT files and ask questions with cited answers powered by retrieval-augmented generation.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "DocuMind — Chat with your documents" },
+      { name: "twitter:description", content: "Upload PDF, DOCX, and TXT files and ask questions with cited answers powered by retrieval-augmented generation." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1f60f57a-c0c0-4a28-b2f0-ca197fb08231/id-preview-fd6762bf--3dead9a0-7d2c-4695-ac66-39c018757be5.lovable.app-1783720809509.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1f60f57a-c0c0-4a28-b2f0-ca197fb08231/id-preview-fd6762bf--3dead9a0-7d2c-4695-ac66-39c018757be5.lovable.app-1783720809509.png" },
     ],
     links: [
       {
